@@ -1,0 +1,21 @@
+requirement is:
+Get tweets using twitter API or from a csv file having username, tweets and other data
+analyse the sentiments using TextBlob
+generate a graph using matplotlib
+
+http://blog.aylien.com/first-text-mining-project-python-3-steps/
+###############help file########################
+usage: get_sentiments.py [-h] -f TWEET_FILE [-t TEXT] [-u USER]
+
+Process some integers.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f TWEET_FILE, -tweet_file TWEET_FILE
+                        file having tweet info
+  -t TEXT, -text TEXT   text about which sentiment data is required
+  -u USER, -user USER   provide username to analyze data on user basis
+
+####################################################
+execution::
+python get_sentiments.py  -f tweet_data.csv 
